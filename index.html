@@ -90,25 +90,11 @@
                         </div>
                     </div>
                     <footer class="Footer-container footer-container">
-                        <div
-                            style="display: flex; justify-content: center; padding-top: 30px; background-color: white;">
-                            <h4 style="color: #555555; padding-top: 10px;">Help Notify News to stay live.</h4>
-                            <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/notifynews"
-                                data-text="Donate Now" data-color="#C81C4C" data-size="small">
-                                <script>
-                                    (function () {
-                                        var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
-                                        if (x) {
-                                            var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
-                                            s.src = 'https://cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
-                                        } else {
-                                            var rzp = window['__rzp__'];
-                                            rzp && rzp.init && rzp.init()
-                                        }
-                                    })();
-                                </script>
-                            </div>
-
+                        <div style="display: flex; justify-content: center; background-color: white;">
+                            <h4 style="color: #555555;">Help Notify News to stay live.</h4>
+                            <a id="rzp-btn" href="https://pages.razorpay.com/notifynews" target="_blank">
+                                <strong>Donate Now</strong>
+                            </a>
                         </div>
 
                         <div class="container" style="border-top: 1px solid #3f3f3f;">
